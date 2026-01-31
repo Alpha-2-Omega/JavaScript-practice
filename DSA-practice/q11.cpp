@@ -23,6 +23,9 @@ bool stringRotation(string &s, string &goal)
     return false;
 }
 
+// T.C = O(N^2);
+// S.C = O(N);
+
 // METHOD 2
 bool StringRotation(string s, string goal)
 {
@@ -34,6 +37,9 @@ bool StringRotation(string s, string goal)
     return doubledS.find(goal) != string::npos;
     //If goal exists inside doubledS → rotation exists → true. and  If not → false
 }
+
+// T.C = O(N);
+// S.C = O(N);
 
 int main()
 {
