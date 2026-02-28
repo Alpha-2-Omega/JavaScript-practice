@@ -1,11 +1,11 @@
-// You are given a string s containing only:
-// '(', ')', '{', '}', '[', ']'
-// Your task is to check whether the string is valid.
-// A string is valid if:
-// Every opening bracket has a matching closing bracket
-// Brackets are closed in the correct order
-// Return true if valid, otherwise false.
-
+/* You are given a string s containing only:
+ '(', ')', '{', '}', '[', ']'
+ Your task is to check whether the string is valid.
+ A string is valid if:
+ Every opening bracket has a matching closing bracket
+ Brackets are closed in the correct order
+ Return true if valid, otherwise false.
+*/
 #include <iostream>
 #include <stack>
 
